@@ -3,7 +3,7 @@ This is my solution to the **Profile Card Component** challenge from Frontend Me
 The project is built using **HTML and CSS**, with a focus on responsive design, clean UI, and layout structure.
 ---
 ## Live Demo
-[Add your live demo link here]
+- [Click here for live demgit o](https://profile-card-component-frontend-mento.netlify.app/)
 ---
 ## Built With
 - HTML5 (Semantic Structure)
