@@ -1,0 +1,106 @@
+/* Must be at the very top of your CSS file */
+@import url('https://googleapis.com');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+/* body background stylin  */
+.background {
+    position: absolute;
+    background-color: #1AA1AD;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.background>img {
+    position: absolute;
+    display: block;
+    width: 40%;
+
+}
+
+.bg-pattern-top {
+    left: 1px;
+    top: -10rem;
+}
+
+.bg-pattern-bottom {
+    right: 0;
+    bottom: -10rem;
+}
+
+/* Profile card styling  */
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+
+    border-radius: 1rem;
+    position: relative;
+    top: 10rem;
+    width: 90%;
+    max-width: 350px;
+}
+
+
+.card-top-bg>img {
+    display: block;
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+
+
+.img-name {
+    width: 100%;
+    text-align: center;
+    padding: 2rem;
+    /* border-bottom: 1px solid darkgrey; */
+}
+
+.img-name>img {
+    border-radius: 50%;
+    border: 8px solid white;
+    margin-top: -4rem;
+}
+
+hr {
+    width: 100%;
+}
+
+.name,
+.stats-child {
+    font-size: 18px;
+}
+
+
+.secondary-text {
+    color: darkgrey;
+    font-size: 14px;
+}
+
+.stats {
+    display: flex;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.stats-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .3rem;
+}
